@@ -1,8 +1,8 @@
 {
-	"name": "admin-icon-in-chat",
-	"displayName": "Admin button",
+	"name": "alpha-chan-icon-in-chat",
+	"displayName": "Alpha chan button",
 	"author":"NothingImportant",
-	"description": "Adds a button that sends colorful  in chat",
+	"description": "Adds a button that sends colorful alpha chan icons in chat",
 	"version": "1.4",
 	"minGameVersion": 140,
 	"hidden": true
