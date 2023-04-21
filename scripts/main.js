@@ -10,7 +10,7 @@ Events.on(EventType.ClientLoadEvent, cons(load => {
         
         })).width(50).height(50).name("admin button");
         
-        table.top().marginLeft(1000);
+        table.top().marginLeft(1050);
     }));
 }));
 
