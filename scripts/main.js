@@ -4,11 +4,11 @@ const hexref = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c",
 
 Events.on(EventType.ClientLoadEvent, cons(load => {
     Vars.ui.hudGroup.fill(cons(table => {
-        table.button(Icon.admin, Styles.cleari, run(() => {
+        table.button(Icon.alpha-chan, Styles.cleari, run(() => {
         
         generate_and_send();
         
-        })).width(50).height(50).name("admin button");
+        })).width(50).height(50).name("alpha button");
         
         table.top().marginLeft(1100);
     }));
