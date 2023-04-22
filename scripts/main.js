@@ -8,7 +8,7 @@ Events.on(EventType.ClientLoadEvent, cons(load => {
         
         generate_and_send();
         
-        })).width(50).height(50).name("alpha button");
+        })).width(50).height(50).name("admin button");
         
         table.top().marginLeft(1100);
     }));
