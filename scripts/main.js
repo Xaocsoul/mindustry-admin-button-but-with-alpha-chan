@@ -4,7 +4,7 @@ const hexref = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c",
 
 Events.on(EventType.ClientLoadEvent, cons(load => {
     Vars.ui.hudGroup.fill(cons(table => {
-        table.button(Icon.Alphaaaa, Styles.cleari, run(() => {
+        table.button(Icon.admin, Styles.cleari, run(() => {
         
         generate_and_send();
         
